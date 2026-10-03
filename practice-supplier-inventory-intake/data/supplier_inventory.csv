@@ -1,0 +1,10 @@
+Supplier ID,Product SKU,Product Name,Quantity,Unit Cost,Received At
+SUP-01,SKU-100,Notebook,40,2.50,2026-09-21
+SUP-01,SKU-200,Blue Pen,100,1.25,2026-09-21
+SUP-02,SKU-300,Printer Paper,50,5.75,2026-09-21
+SUP-02,SKU-400,Highlighter,0,1.10,2026-09-21
+,SKU-500,Stapler,12,8.50,2026-09-21
+SUP-03,SKU-600,Desk Organizer,8,not available,2026-09-21
+SUP-01,SKU-200,Blue Pen,100,1.25,2026-09-21
+SUP-04,SKU-700,Whiteboard Marker,36,1.80,not-a-date
+SUP-04,SKU-800,Folder,25,1.10,2026-09-21

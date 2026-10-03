@@ -1,0 +1,5 @@
+supplier_id,product_sku,product_name,quantity,unit_cost,received_at,rejection_reason
+SUP-01,SKU-100,Notebook,40,2.5,2026-09-21,
+SUP-01,SKU-200,Blue Pen,100,1.25,2026-09-21,
+SUP-02,SKU-300,Printer Paper,50,5.75,2026-09-21,
+SUP-04,SKU-800,Folder,25,1.1,2026-09-21,

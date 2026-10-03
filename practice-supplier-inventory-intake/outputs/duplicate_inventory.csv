@@ -1,0 +1,2 @@
+supplier_id,product_sku,product_name,quantity,unit_cost,received_at,rejection_reason
+SUP-01,SKU-200,Blue Pen,100,1.25,2026-09-21,Duplicate supplier/product/date record; 
