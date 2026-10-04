@@ -1,0 +1,5 @@
+donation_id,recorded_on,status,pickup_site,quantity_boxes,source_updated_at,source_row,status_clean,quantity_boxes_number,pickup_site_quality,rejection_reason
+DN-2201,2026-09-28,Received,North Depot,12,2026-09-28T08:10:00Z,2,received,12,present,
+DN-2202,2026-09-28,Delivered,South Depot,8,2026-09-28T12:00:00Z,9,delivered,8,present,
+DN-2203,2026-09-28,Delivered,East Depot,15,2026-09-28T09:00:00Z,4,delivered,15,present,
+DN-2206,2026-09-28,Delivered,,11,2026-09-28T10:30:00Z,7,delivered,11,missing,

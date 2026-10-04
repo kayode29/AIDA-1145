@@ -1,0 +1,9 @@
+donation_id,recorded_on,status,pickup_site,quantity_boxes,source_updated_at
+DN-2201,2026-09-28,Received,North Depot,12,2026-09-28T08:10:00Z
+DN-2202,2026-09-28,In Transit,South Depot,8,2026-09-28T08:30:00Z
+DN-2203,2026-09-28,Delivered,East Depot,15,2026-09-28T09:00:00Z
+DN-2204,2026-09-31,Received,West Depot,9,2026-09-28T09:30:00Z
+DN-2205,2026-09-28,Waiting,North Depot,7,2026-09-28T10:00:00Z
+DN-2206,2026-09-28,Delivered,,11,2026-09-28T10:30:00Z
+DN-2207,2026-09-28,Received,South Depot,-2,2026-09-28T11:00:00Z
+DN-2202,2026-09-28,Delivered,South Depot,8,2026-09-28T12:00:00Z

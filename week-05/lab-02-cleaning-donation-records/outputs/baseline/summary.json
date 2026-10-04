@@ -1,0 +1,7 @@
+{
+  "input_rows": 8,
+  "clean_rows": 4,
+  "rejected_rows": 3,
+  "duplicate_non_survivors": 1,
+  "site_policy": "flag"
+}
