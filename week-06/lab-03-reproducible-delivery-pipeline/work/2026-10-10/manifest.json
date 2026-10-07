@@ -1,0 +1,20 @@
+{
+  "run_date": "2026-10-10",
+  "status": "SUCCEEDED",
+  "stages": {
+    "extract": "SUCCEEDED",
+    "transform": "SUCCEEDED",
+    "publish": "SUCCEEDED"
+  },
+  "input_sha256": "7a7caf031aa8a7225a161ca70a2b802ef2dd3943294172a79ecb267b9d1c94dd",
+  "counts": {
+    "input": 7,
+    "clean": 4,
+    "quarantined": 2,
+    "duplicate_non_survivors": 1
+  },
+  "clean_sha256": "a0815c722cfb49c68e554f8ebd1af5b93a6b15e521e3edbd233dfecea5c8825b",
+  "quarantine_sha256": "1f86107d60e53b578a761e18af483c77ae1e92b737191e6d94e34c2a375db189",
+  "error": "Controlled failure requested after successful transform.",
+  "summary_sha256": "253509c17521901bb9490ac6ab0bcb8a99cca29fc207cdf5a3f15e92174517a4"
+}

@@ -1,0 +1,8 @@
+parcel_id,event_date,hub,event_type,source_updated_at
+PK-7301,2026-10-08,North,received,2026-10-08T08:00:00Z
+PK-7302,2026-10-08,South,sorted,2026-10-08T08:15:00Z
+PK-7302,2026-10-08,South,dispatched,2026-10-08T09:00:00Z
+PK-7303,2026-10-42,East,received,2026-10-08T09:10:00Z
+,2026-10-08,West,received,2026-10-08T09:20:00Z
+PK-7304,2026-10-08,North,dispatched,2026-10-08T10:00:00Z
+PK-7305,2026-10-08,East,sorted,2026-10-08T10:20:00Z
