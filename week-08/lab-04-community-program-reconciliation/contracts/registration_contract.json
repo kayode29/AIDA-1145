@@ -1,0 +1,28 @@
+{
+  "contract_name": "Community program registration reconciliation",
+  "contract_version": "1.0",
+  "batch_id": "REG-2026-10-20-A",
+  "source_file": "data/registrations.csv",
+  "source_schema": [
+    {"name": "registration_id", "type": "text", "required": true, "key": true},
+    {"name": "program_code", "type": "text", "required": true},
+    {"name": "seats", "type": "integer", "required": true, "minimum": 1},
+    {"name": "fee_cents", "type": "integer", "required": true, "minimum": 0},
+    {"name": "status", "type": "text", "required": true, "allowed": ["active", "cancelled"]},
+    {"name": "registered_at", "type": "ISO-like local timestamp", "required": true},
+    {"name": "batch_id", "type": "text", "required": true}
+  ],
+  "grain": "one source row per registration_id",
+  "scope": "active registrations in the declared batch; cancelled registrations are accounted for and excluded",
+  "catalogue_key": "program_code",
+  "join_expectation": "many registrations to one catalogue row per program_code",
+  "acceptance_conditions": [
+    "input headers match the declared schema",
+    "registration_id is present and unique",
+    "all rows belong to the declared batch and statuses are allowed",
+    "active rows have a known program_code in the approved catalogue version",
+    "approved catalogue program_code values are unique",
+    "accepted view has exactly one row per active registration_id",
+    "eligible fee_cents total reconciles to accepted-view fee_cents total"
+  ]
+}
