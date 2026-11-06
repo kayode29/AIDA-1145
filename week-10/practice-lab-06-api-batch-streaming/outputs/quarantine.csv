@@ -1,0 +1,3 @@
+observation_id,station_id,observed_at,bikes_available,dock_capacity,age_minutes,reason
+OBS-1002,ST-02,2026-10-15T09:59:00-04:00,13,10,1.0,AVAILABLE_EXCEEDS_CAPACITY
+OBS-1004,ST-04,2026-10-15T09:40:00-04:00,2,8,20.0,STALE_OBSERVATION

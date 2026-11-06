@@ -1,0 +1,5 @@
+gate,observed,rule,pass
+Pagination reached a terminal cursor,True,must be True,True
+Expected station source coverage,100.0%,at least 95%,True
+Usable and fresh station coverage,60.0%,at least 95.0%,False
+Invalid-record rate,20.0%,at most 2.0%,False

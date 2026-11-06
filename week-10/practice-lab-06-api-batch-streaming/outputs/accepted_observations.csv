@@ -1,0 +1,4 @@
+observation_id,station_id,station_name,service_area,observed_at,retrieved_at,age_minutes,bikes_available,dock_capacity,availability_percent
+OBS-1001,ST-01,Harbour Gate,North,2026-10-15T09:57:00-04:00,2026-10-15T10:00:00-04:00,3.0,4,12,33.3
+OBS-1003,ST-03,River Park,Central,2026-10-15T09:58:00-04:00,2026-10-15T10:00:00-04:00,2.0,6,10,60.0
+OBS-1005,ST-05,West Terminal,West,2026-10-15T09:45:00-04:00,2026-10-15T10:00:00-04:00,15.0,2,6,33.3

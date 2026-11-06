@@ -1,0 +1,27 @@
+{
+  "retrieved_at": "2026-10-15T10:00:00-04:00",
+  "items": [
+    {
+      "observation_id": "OBS-1001",
+      "station_id": "ST-01",
+      "observed_at": "2026-10-15T09:57:00-04:00",
+      "bikes_available": 4,
+      "dock_capacity": 12
+    },
+    {
+      "observation_id": "OBS-1002",
+      "station_id": "ST-02",
+      "observed_at": "2026-10-15T09:59:00-04:00",
+      "bikes_available": 13,
+      "dock_capacity": 10
+    },
+    {
+      "observation_id": "OBS-1003",
+      "station_id": "ST-03",
+      "observed_at": "2026-10-15T09:58:00-04:00",
+      "bikes_available": 6,
+      "dock_capacity": 10
+    }
+  ],
+  "next_cursor": "page-02"
+}

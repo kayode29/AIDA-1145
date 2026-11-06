@@ -1,0 +1,23 @@
+{
+  "business_case": "Harbourline Bike Share station availability",
+  "retrieved_at": "2026-10-15T10:00:00-04:00",
+  "pages_read": 2,
+  "pagination_complete": true,
+  "raw_records_received": 6,
+  "unique_observations": 5,
+  "duplicate_deliveries_ignored": 1,
+  "expected_stations": 5,
+  "expected_stations_received": 5,
+  "missing_stations": [],
+  "source_coverage_percent": 100.0,
+  "accepted_fresh_observations": 3,
+  "usable_fresh_coverage_percent": 60.0,
+  "invalid_observations": 1,
+  "stale_observations": 1,
+  "invalid_rate_percent": 20.0,
+  "age_limit_minutes_inclusive": 15,
+  "rerun_unique_keys_after_first_run": 5,
+  "rerun_unique_keys_after_second_run": 5,
+  "decision": "HOLD",
+  "decision_reason": "The batch is held because usable fresh coverage and the invalid-record rate fail the stated release gates."
+}
