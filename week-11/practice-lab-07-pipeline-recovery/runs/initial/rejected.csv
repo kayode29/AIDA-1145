@@ -1,0 +1,4 @@
+source_line,event_id,reason
+4,E103,negative units
+5,E104,missing location
+6,E102,duplicate event_id

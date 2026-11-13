@@ -1,0 +1,8 @@
+{
+  "source": "data\\corrected.csv",
+  "input_rows": 4,
+  "accepted_rows": 4,
+  "rejected_rows": 0,
+  "accepted_units": 19,
+  "release": "PASS"
+}
