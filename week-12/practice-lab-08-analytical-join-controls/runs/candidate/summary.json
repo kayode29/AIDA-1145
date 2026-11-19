@@ -1,0 +1,17 @@
+{
+  "status": "HOLD",
+  "source": "data\\order_lines.csv",
+  "catalog": "data\\catalog_candidate.csv",
+  "failures": [
+    "each line must have exactly one reference match"
+  ],
+  "source_sha256": "a9de759ae4ee9d2ac1a67a781c59e744fc20d8df3ef20558083086b997ec2da6",
+  "catalog_sha256": "8fa5bd99a4b7087273678e293e090a8a02723b2748c51c0714dc29e927927d17",
+  "input_rows": 6,
+  "canonical_lines": 5,
+  "replay_rows": 1,
+  "error_rows": 0,
+  "source_net_cents": 7900,
+  "unmatched_lines": 0,
+  "ambiguous_lines": 1
+}

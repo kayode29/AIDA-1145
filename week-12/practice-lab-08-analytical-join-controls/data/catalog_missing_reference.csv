@@ -1,0 +1,5 @@
+"product_id","category","valid_from","valid_to"
+"P1","Hardware","2026-11-01","2026-12-01"
+"P2","Essentials","2026-11-01","2026-11-10"
+"P2","Accessories","2026-11-10","2026-12-01"
+"P3","Service","2026-11-13","2026-12-01"

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "source": "data\\order_lines.csv",
+  "catalog": "data\\catalog_corrected.csv",
+  "failures": [],
+  "source_sha256": "a9de759ae4ee9d2ac1a67a781c59e744fc20d8df3ef20558083086b997ec2da6",
+  "catalog_sha256": "fb7c14731347aa450702620c355b11ad97a5c4814f8babf0138ed28e4e55b81e",
+  "input_rows": 6,
+  "canonical_lines": 5,
+  "replay_rows": 1,
+  "error_rows": 0,
+  "source_net_cents": 7900,
+  "unmatched_lines": 0,
+  "ambiguous_lines": 0,
+  "fact_rows": 5,
+  "distinct_orders": 4,
+  "report_net_cents": 7900
+}
