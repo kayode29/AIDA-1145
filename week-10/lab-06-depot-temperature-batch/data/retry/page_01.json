@@ -1,0 +1,1 @@
+{"retrieved_at":"2026-11-04T14:10:00Z","items":[{"reading_id":"R06","sensor_id":"S01","observed_at":"2026-11-04T14:08:00Z","temperature_c":4.0},{"reading_id":"R07","sensor_id":"S02","observed_at":"2026-11-04T14:07:00Z","temperature_c":4.6},{"reading_id":"R08","sensor_id":"S03","observed_at":"2026-11-04T14:06:00Z","temperature_c":5.2}],"next_cursor":"page_02"}
