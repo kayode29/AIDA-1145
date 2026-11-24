@@ -1,0 +1,3 @@
+reading_id,sensor_id,observed_at,temperature_c,age_minutes,reason
+R02,S02,2026-11-04T13:56:00Z,55.0,4.0,temperature_c must be numeric from -10 through 30
+R04,S04,2026-11-04T13:40:00Z,3.9,20.0,Stale reading: older than 15 minutes

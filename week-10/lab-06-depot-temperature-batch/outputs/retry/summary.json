@@ -1,0 +1,20 @@
+{
+  "batch": "retry",
+  "retrieved_at": "2026-11-04T14:10:00Z",
+  "pages_read": 2,
+  "pagination_complete": true,
+  "delivered_row_count": 6,
+  "unique_reading_count": 5,
+  "duplicate_delivery_count": 1,
+  "expected_sensor_count": 5,
+  "source_sensors_found": 5,
+  "source_coverage_percent": 100.0,
+  "usable_fresh_sensors": 5,
+  "usable_and_fresh_coverage_percent": 100.0,
+  "invalid_reading_count": 0,
+  "invalid_reading_rate_percent": 0.0,
+  "conflict_count": 0,
+  "accepted_row_count": 5,
+  "quarantine_row_count": 0,
+  "decision": "ACCEPT"
+}
