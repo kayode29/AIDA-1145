@@ -1,0 +1,26 @@
+{
+  "catalogue": "candidate",
+  "release_status": "HOLD",
+  "fact_row_count": 10,
+  "gross_cents": 57985,
+  "discount_cents": 4955,
+  "net_cents": 53030,
+  "unresolved_product_count": 1,
+  "checks": {
+    "fact_line_id_unique": true,
+    "fact_rows_match_completed_source_rows": true,
+    "product_dimension_keys_unique": true,
+    "customer_dimension_keys_unique": true,
+    "store_dimension_keys_unique": true,
+    "date_dimension_keys_unique": true,
+    "foreign_keys_resolve": true,
+    "money_is_non_negative": true,
+    "net_equals_gross_less_discount": true,
+    "no_unresolved_product_mappings": false
+  },
+  "failures": [
+    "no_unresolved_product_mappings",
+    "unresolved product mappings require investigation"
+  ],
+  "database_file": "cedar_trail_warehouse.sqlite"
+}

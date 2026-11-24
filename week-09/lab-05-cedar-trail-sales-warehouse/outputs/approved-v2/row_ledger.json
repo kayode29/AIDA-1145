@@ -1,0 +1,10 @@
+{
+  "input_rows": 12,
+  "completed_rows": 10,
+  "cancelled_rows": 1,
+  "pending_rows": 1,
+  "other_status_rows": 0,
+  "distinct_completed_orders": 8,
+  "fact_rows": 10,
+  "completed_units": 15
+}

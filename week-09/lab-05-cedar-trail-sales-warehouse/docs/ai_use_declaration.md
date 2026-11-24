@@ -1,11 +1,7 @@
-# Generative or automated tool use declaration
+﻿# Generative or automated tool use declaration
 
-Complete this statement and retain it in your Lab 5 folder.
-
-- Tools used, if any:
-- What you asked the tools to help with:
-- What suggestions or generated material you used or changed:
-- How you checked the accuracy and correctness of your own code and conclusions:
-- Confirmation that you can explain your submitted design, calculations, joins, tests, and decision:
-
-If you did not use a generative or automated tool, state that clearly. Follow the course and institutional expectations for disclosure. You remain responsible for every item you submit.
+- Tools used, if any: ChatGPT (generative AI assistant), Python, PowerShell, and Git.
+- What you asked the tools to help with: I used ChatGPT for explanations of the lab requirements, guidance on implementing the Python data pipeline, help understanding SQL queries, writing and running unit tests, troubleshooting errors, and documenting the results.
+- What suggestions or generated material you used or changed: I used AI-assisted explanations and coding suggestions to help develop and understand parts of the pipeline, validation logic, test cases, SQL reporting, and documentation. I reviewed and adapted the material for this lab.
+- How you checked the accuracy and correctness of your own code and conclusions: I ran the candidate and approved-v2 pipelines, reviewed their output files and validation results, checked the sales totals, and ran the Python unit tests. All 21 unit tests passed. I also reran the approved-v2 pipeline and confirmed that it returned ACCEPT with 10 fact rows and 0 exceptions.
+- Confirmation that you can explain your submitted design, calculations, joins, tests, and decision: I confirm that I have reviewed the submitted work and can explain the purpose of the pipeline, the fact and dimension tables, the sales calculations, the validation checks, the test results, and why the candidate catalogue received HOLD while approved-v2 received ACCEPT.
