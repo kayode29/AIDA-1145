@@ -1,0 +1,27 @@
+{
+  "status": "HOLD",
+  "release_reasons": [
+    "One or more source rows contain errors."
+  ],
+  "source_file": "service_entries_conflict.csv",
+  "source_sha256": "feb28b4a972eb5223c40e76b8adef96bf3a84f315df1e3e7a957505ef4d7f32c",
+  "history_file": "site_history_approved.csv",
+  "history_sha256": "e981bd3568839158874db9d0fbc98d69e10c7f9546a90fc9dfd8d59a54b09839",
+  "row_accounting": {
+    "input_rows": 8,
+    "canonical_entries": 6,
+    "identical_retransmissions": 1,
+    "source_error_rows": 1,
+    "accounting_pass": true
+  },
+  "matching": {
+    "zero_matches": 0,
+    "multiple_matches": 0,
+    "matched_entries": 6
+  },
+  "reference": {
+    "valid_intervals": 4,
+    "invalid_intervals": 0
+  },
+  "canonical_source_revenue_cents": 17300
+}

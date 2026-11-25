@@ -1,0 +1,5 @@
+﻿history_row,site_id,region,valid_from,valid_to,classification,reason
+2,S1,East,2026-11-01,2026-12-01,VALID,Valid half-open effective-date interval
+3,S2,East,2026-11-01,2026-11-18,VALID,Valid half-open effective-date interval
+4,S2,West,2026-11-10,2026-12-01,VALID,Valid half-open effective-date interval
+5,S3,South,2026-11-16,2026-12-01,VALID,Valid half-open effective-date interval

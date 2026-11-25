@@ -1,0 +1,28 @@
+{
+  "status": "HOLD",
+  "release_reasons": [
+    "One or more entries have no effective-dated history match.",
+    "One or more entries have multiple effective-dated history matches."
+  ],
+  "source_file": "service_entries.csv",
+  "source_sha256": "3da8f24de533824ee9955d6ecf57c749af2c004f2f128dd89be13ee4d72ed0ff",
+  "history_file": "site_history_candidate.csv",
+  "history_sha256": "310dfd396c222fd137f3f46d25292170284f0343805d2ff10a96690a8be1509e",
+  "row_accounting": {
+    "input_rows": 7,
+    "canonical_entries": 6,
+    "identical_retransmissions": 1,
+    "source_error_rows": 0,
+    "accounting_pass": true
+  },
+  "matching": {
+    "zero_matches": 1,
+    "multiple_matches": 1,
+    "matched_entries": 4
+  },
+  "reference": {
+    "valid_intervals": 4,
+    "invalid_intervals": 0
+  },
+  "canonical_source_revenue_cents": 17300
+}

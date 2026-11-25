@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "release_reasons": [],
+  "source_file": "service_entries_boundary.csv",
+  "source_sha256": "796cfdeee2b700e3313eb677b8b3ec15a5e3d93aa1dea25818366110fad01c8e",
+  "history_file": "site_history_approved.csv",
+  "history_sha256": "e981bd3568839158874db9d0fbc98d69e10c7f9546a90fc9dfd8d59a54b09839",
+  "row_accounting": {
+    "input_rows": 8,
+    "canonical_entries": 7,
+    "identical_retransmissions": 1,
+    "source_error_rows": 0,
+    "accounting_pass": true
+  },
+  "matching": {
+    "zero_matches": 0,
+    "multiple_matches": 0,
+    "matched_entries": 7
+  },
+  "reference": {
+    "valid_intervals": 4,
+    "invalid_intervals": 0
+  },
+  "canonical_source_revenue_cents": 18300,
+  "reconciliation": {
+    "canonical_entry_count": 7,
+    "fact_count": 7,
+    "canonical_revenue_cents": 18300,
+    "fact_revenue_cents": 18300,
+    "fact_count_matches": true,
+    "revenue_matches": true,
+    "global_distinct_work_orders": 5
+  }
+}

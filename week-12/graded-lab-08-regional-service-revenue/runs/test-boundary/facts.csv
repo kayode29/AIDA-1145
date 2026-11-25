@@ -1,0 +1,8 @@
+﻿entry_id,work_order,service_date,site_id,region,units,unit_cents,entry_cents
+E01,W01,2026-11-02,S1,East,2,1200,2400
+E02,W01,2026-11-05,S2,East,1,2000,2000
+E03,W02,2026-11-15,S2,West,3,2000,6000
+E04,W03,2026-11-14,S3,South,1,1500,1500
+E05,W04,2026-11-18,S1,East,2,1200,2400
+E06,W04,2026-11-18,S3,South,2,1500,3000
+E07,W05,2026-11-10,S2,West,1,1000,1000

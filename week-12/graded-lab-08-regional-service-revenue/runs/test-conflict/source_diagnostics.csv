@@ -1,0 +1,9 @@
+﻿input_row,entry_id,classification,reason
+2,E01,CANONICAL,First valid occurrence of this entry_id
+3,E02,CANONICAL,First valid occurrence of this entry_id
+4,E03,CANONICAL,First valid occurrence of this entry_id
+5,E04,CANONICAL,First valid occurrence of this entry_id
+6,E05,CANONICAL,First valid occurrence of this entry_id
+7,E06,CANONICAL,First valid occurrence of this entry_id
+8,E02,IDENTICAL_RETRANSMISSION,Exact repeat of the canonical entry
+9,E02,SOURCE_ERROR,Conflicting values for an existing entry_id

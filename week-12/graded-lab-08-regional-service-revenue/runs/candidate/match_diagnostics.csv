@@ -1,0 +1,7 @@
+﻿entry_id,work_order,service_date,site_id,match_count,matched_regions,result,reason
+E01,W01,2026-11-02,S1,1,East,MATCHED,Exactly one effective-dated history row matched
+E02,W01,2026-11-05,S2,1,East,MATCHED,Exactly one effective-dated history row matched
+E03,W02,2026-11-15,S2,2,East;West,AMBIGUOUS,More than one history row matched site and service date
+E04,W03,2026-11-14,S3,0,,MISSING,No history row matched site and service date
+E05,W04,2026-11-18,S1,1,East,MATCHED,Exactly one effective-dated history row matched
+E06,W04,2026-11-18,S3,1,South,MATCHED,Exactly one effective-dated history row matched

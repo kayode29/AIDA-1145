@@ -1,0 +1,9 @@
+{
+  "canonical_entry_count": 7,
+  "fact_count": 7,
+  "canonical_revenue_cents": 18300,
+  "fact_revenue_cents": 18300,
+  "fact_count_matches": true,
+  "revenue_matches": true,
+  "global_distinct_work_orders": 5
+}
