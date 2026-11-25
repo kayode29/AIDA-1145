@@ -1,0 +1,51 @@
+{
+  "run_id": "initial",
+  "batch_id": "S-20261110",
+  "source_identifier": "service_batches.csv",
+  "source_sha256": "12b285067141ecf8e0457126ae7bb670a4339c7fdc92faddd79c6a4f51303577",
+  "decision": "HOLD",
+  "input_rows": 8,
+  "counts": {
+    "selected": 5,
+    "superseded": 1,
+    "retransmitted": 1,
+    "exceptions": 1
+  },
+  "accounted_rows": 8,
+  "expected_distinct_tickets": 6,
+  "observed_distinct_tickets": 5,
+  "selected_ticket_ids": [
+    "T201",
+    "T202",
+    "T203",
+    "T204",
+    "T205"
+  ],
+  "expected_branches": [
+    "East",
+    "West",
+    "North"
+  ],
+  "observed_branches": [
+    "East",
+    "North",
+    "West"
+  ],
+  "conflicts": [],
+  "schema_errors": [],
+  "gates": {
+    "schema_valid": true,
+    "handoff_complete": true,
+    "zero_exceptions": false,
+    "zero_conflicts": true,
+    "ticket_count_matches": false,
+    "all_expected_branches_covered": true,
+    "row_reconciliation": true
+  },
+  "release_reasons": [
+    "zero_exceptions",
+    "ticket_count_matches"
+  ],
+  "previous_report_available": false,
+  "previous_report_run_id": null
+}

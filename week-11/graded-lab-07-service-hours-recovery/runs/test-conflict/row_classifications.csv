@@ -1,0 +1,4 @@
+row_number,ticket_id,branch,hours,revision,classification,reason
+3,T901,East,2,1,retransmitted,Identical ticket and revision already received
+2,T901,East,2,1,exception,Distinct values conflict at this ticket revision
+4,T901,East,3,1,exception,Distinct values conflict at this ticket revision

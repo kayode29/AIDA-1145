@@ -1,0 +1,50 @@
+{
+  "run_id": "corrected-2",
+  "batch_id": "S-20261110",
+  "source_identifier": "corrections.csv",
+  "source_sha256": "472cf8d6156c1a55037d9dad474e91677322fada53a92b0e8ace2d171d5a4262",
+  "decision": "RELEASE",
+  "input_rows": 8,
+  "counts": {
+    "selected": 6,
+    "superseded": 1,
+    "retransmitted": 1,
+    "exceptions": 0
+  },
+  "accounted_rows": 8,
+  "expected_distinct_tickets": 6,
+  "observed_distinct_tickets": 6,
+  "selected_ticket_ids": [
+    "T201",
+    "T202",
+    "T203",
+    "T204",
+    "T205",
+    "T206"
+  ],
+  "expected_branches": [
+    "East",
+    "West",
+    "North"
+  ],
+  "observed_branches": [
+    "East",
+    "North",
+    "West"
+  ],
+  "conflicts": [],
+  "schema_errors": [],
+  "gates": {
+    "schema_valid": true,
+    "handoff_complete": true,
+    "zero_exceptions": true,
+    "zero_conflicts": true,
+    "ticket_count_matches": true,
+    "all_expected_branches_covered": true,
+    "row_reconciliation": true
+  },
+  "release_reasons": [],
+  "previous_report_available": true,
+  "previous_report_run_id": "corrected-1",
+  "published_report": "release\\report.csv"
+}

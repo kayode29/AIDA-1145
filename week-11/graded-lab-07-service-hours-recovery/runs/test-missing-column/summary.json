@@ -1,0 +1,41 @@
+{
+  "run_id": "test-missing-column",
+  "batch_id": "unknown",
+  "source_identifier": "missing_column.csv",
+  "source_sha256": "2d56a04f81e293b423801363a1efb6ef3b60c70e27827e26a5ce9432c99a1f9f",
+  "decision": "HOLD",
+  "input_rows": 1,
+  "counts": {
+    "selected": 0,
+    "superseded": 0,
+    "retransmitted": 0,
+    "exceptions": 1
+  },
+  "accounted_rows": 1,
+  "expected_distinct_tickets": 0,
+  "observed_distinct_tickets": 0,
+  "selected_ticket_ids": [],
+  "expected_branches": [],
+  "observed_branches": [],
+  "conflicts": [],
+  "schema_errors": [
+    "Missing required columns: revision"
+  ],
+  "gates": {
+    "schema_valid": false,
+    "handoff_complete": false,
+    "zero_exceptions": false,
+    "zero_conflicts": true,
+    "ticket_count_matches": true,
+    "all_expected_branches_covered": true,
+    "row_reconciliation": true
+  },
+  "release_reasons": [
+    "schema_valid",
+    "handoff_complete",
+    "zero_exceptions",
+    "Missing required columns: revision"
+  ],
+  "previous_report_available": true,
+  "previous_report_run_id": "corrected-2"
+}

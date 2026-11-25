@@ -1,0 +1,48 @@
+{
+  "run_id": "test-conflict",
+  "batch_id": "S-20261110",
+  "source_identifier": "same_revision_conflict.csv",
+  "source_sha256": "144026d8e409fd368edd3909b3fd30f371b13dd1d4a4a95e5faf8031e8d8e413",
+  "decision": "HOLD",
+  "input_rows": 3,
+  "counts": {
+    "selected": 0,
+    "superseded": 0,
+    "retransmitted": 1,
+    "exceptions": 2
+  },
+  "accounted_rows": 3,
+  "expected_distinct_tickets": 6,
+  "observed_distinct_tickets": 0,
+  "selected_ticket_ids": [],
+  "expected_branches": [
+    "East",
+    "West",
+    "North"
+  ],
+  "observed_branches": [],
+  "conflicts": [
+    {
+      "ticket_id": "T901",
+      "revision": 1
+    }
+  ],
+  "schema_errors": [],
+  "gates": {
+    "schema_valid": true,
+    "handoff_complete": true,
+    "zero_exceptions": false,
+    "zero_conflicts": false,
+    "ticket_count_matches": false,
+    "all_expected_branches_covered": false,
+    "row_reconciliation": true
+  },
+  "release_reasons": [
+    "zero_exceptions",
+    "zero_conflicts",
+    "ticket_count_matches",
+    "all_expected_branches_covered"
+  ],
+  "previous_report_available": true,
+  "previous_report_run_id": "corrected-2"
+}

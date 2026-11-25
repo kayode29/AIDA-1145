@@ -1,0 +1,9 @@
+row_number,ticket_id,branch,hours,revision,classification,reason
+7,T202,West,3,1,retransmitted,Identical ticket and revision already received
+2,T201,East,2,1,selected,Highest valid revision for ticket
+3,T202,West,3,1,selected,Highest valid revision for ticket
+4,T203,East,1,1,superseded,Lower valid revision superseded by newer revision
+8,T203,East,2,2,selected,Highest valid revision for ticket
+5,T204,North,4,1,selected,Highest valid revision for ticket
+6,T205,West,2,1,selected,Highest valid revision for ticket
+9,T206,East,1,2,selected,Highest valid revision for ticket
