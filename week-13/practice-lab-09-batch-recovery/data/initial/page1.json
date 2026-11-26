@@ -1,0 +1,25 @@
+{
+  "batch_id": "DEMO-20261125",
+  "page_id": "page1",
+  "next_page": "page2",
+  "events": [
+    {
+      "event_id": "A101",
+      "depot": "North",
+      "units": 5,
+      "observed_at": "2026-11-25T07:15:00Z"
+    },
+    {
+      "event_id": "A102",
+      "depot": "South",
+      "units": 4,
+      "observed_at": "2026-11-25T07:30:00Z"
+    },
+    {
+      "event_id": "A103",
+      "depot": "North",
+      "units": 3,
+      "observed_at": "2026-11-25T07:45:00Z"
+    }
+  ]
+}

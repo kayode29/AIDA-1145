@@ -1,0 +1,6 @@
+page,position,event_id,classification,reason
+page1,1,A101,accepted,
+page1,2,A102,accepted,
+page1,3,A103,accepted,
+page2,1,A102,replay,identical event
+page2,2,A104,error,invalid units

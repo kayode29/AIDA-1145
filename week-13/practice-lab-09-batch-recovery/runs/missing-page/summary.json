@@ -1,0 +1,16 @@
+{
+  "status": "HOLD",
+  "manifest": "data\\manifest.json",
+  "pages_dir": "test-missing-page",
+  "failures": [
+    "[Errno 2] No such file or directory: 'test-missing-page\\\\page2.json'"
+  ],
+  "page_hashes": {
+    "page1": "f16dd3d3279605ca54554409dfe0431a7e530cb8d643af5d1d15175d4d9e8819"
+  },
+  "manifest_sha256": "ac82ffb1ac4ef8ae3377d7a81d3ca665df8c6288425181c2a591eab944f581ba",
+  "batch_id": "DEMO-20261125",
+  "visited_pages": [
+    "page1"
+  ]
+}

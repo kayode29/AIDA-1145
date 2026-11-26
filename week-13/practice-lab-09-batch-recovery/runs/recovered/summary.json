@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "manifest": "data\\manifest.json",
+  "pages_dir": "data\\corrected",
+  "failures": [],
+  "page_hashes": {
+    "page1": "f16dd3d3279605ca54554409dfe0431a7e530cb8d643af5d1d15175d4d9e8819",
+    "page2": "dcd0757884b0aac7e34a0713e2b4f9c933b94ca9b29febaf799b715cffa0cd3c"
+  },
+  "manifest_sha256": "ac82ffb1ac4ef8ae3377d7a81d3ca665df8c6288425181c2a591eab944f581ba",
+  "batch_id": "DEMO-20261125",
+  "visited_pages": [
+    "page1",
+    "page2"
+  ],
+  "input_rows": 5,
+  "accepted_events": 4,
+  "replay_rows": 1,
+  "error_rows": 0,
+  "missing_event_ids": [],
+  "unexpected_event_ids": [],
+  "total_units": 14
+}

@@ -1,0 +1,27 @@
+{
+  "status": "HOLD",
+  "manifest": "data\\manifest.json",
+  "pages_dir": "data\\initial",
+  "failures": [
+    "event set differs from manifest",
+    "invalid or conflicting rows"
+  ],
+  "page_hashes": {
+    "page1": "f16dd3d3279605ca54554409dfe0431a7e530cb8d643af5d1d15175d4d9e8819",
+    "page2": "aaafcbd463e339ff0ed87716eb8b8b0c81a91ab3c91562727d56e399935178a2"
+  },
+  "manifest_sha256": "ac82ffb1ac4ef8ae3377d7a81d3ca665df8c6288425181c2a591eab944f581ba",
+  "batch_id": "DEMO-20261125",
+  "visited_pages": [
+    "page1",
+    "page2"
+  ],
+  "input_rows": 5,
+  "accepted_events": 3,
+  "replay_rows": 1,
+  "error_rows": 1,
+  "missing_event_ids": [
+    "A104"
+  ],
+  "unexpected_event_ids": []
+}

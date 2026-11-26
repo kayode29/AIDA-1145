@@ -1,0 +1,15 @@
+{
+  "batch_id": "DEMO-20261125",
+  "first_page": "page1",
+  "expected_pages": [
+    "page1",
+    "page2"
+  ],
+  "expected_event_ids": [
+    "A101",
+    "A102",
+    "A103",
+    "A104"
+  ],
+  "cutoff_utc": "2026-11-25T08:00:00Z"
+}
