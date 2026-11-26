@@ -1,0 +1,8 @@
+source_row,event_id,revision,classification,reason
+2,J01,1,error,Same-revision conflict: J01 revision 1
+3,J02,1,selected,Highest valid revision 1 selected
+4,J03,1,superseded,Revision 1 superseded by revision 2
+5,J02,1,replay,Identical retransmission of J02 revision 1
+6,J03,2,selected,Highest valid revision 2 selected
+7,J04,1,selected,Highest valid revision 1 selected
+8,J01,1,error,Same-revision conflict: J01 revision 1

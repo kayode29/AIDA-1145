@@ -1,0 +1,5 @@
+source_row,event_id,revision,classification,reason
+2,J01,1,selected,Highest valid revision 1 selected
+3,J02,1,selected,Highest valid revision 1 selected
+4,J03,1,selected,Highest valid revision 1 selected
+5,J02,1,replay,Identical retransmission of J02 revision 1

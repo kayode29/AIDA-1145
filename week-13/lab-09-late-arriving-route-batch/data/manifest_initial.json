@@ -1,0 +1,11 @@
+{
+  "batch_id": "ROUTE-20261125",
+  "reporting_cutoff_utc": "2026-11-25T09:00:00Z",
+  "snapshot_as_of_utc": "2026-11-25T09:00:00Z",
+  "expected_event_ids": [
+    "J01",
+    "J02",
+    "J03",
+    "J04"
+  ]
+}

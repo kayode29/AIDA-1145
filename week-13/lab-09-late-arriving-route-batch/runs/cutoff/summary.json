@@ -1,0 +1,76 @@
+{
+  "batch_id": "ROUTE-20261125",
+  "manifest": "C:\\Users\\user\\Downloads\\AIDA-1145\\week-13\\lab-09-late-arriving-route-batch\\test-inputs\\cutoff\\manifest_cutoff.json",
+  "source": "C:\\Users\\user\\Downloads\\AIDA-1145\\week-13\\lab-09-late-arriving-route-batch\\test-inputs\\cutoff\\snapshot_cutoff.csv",
+  "manifest_sha256": "d40f6a35f95d72d887942e27cdfc1790a5f6c803fd842e83e7eccb2977a6fa1c",
+  "source_sha256": "072c417d5f3dd1e83a0e6dd59952277f0a22faa4b85e38645937ac51f0b23da0",
+  "reporting_cutoff_utc": "2026-11-25T09:00:00Z",
+  "snapshot_as_of_utc": "2026-11-25T09:30:00Z",
+  "expected_event_ids": [
+    "J01",
+    "J02",
+    "J03",
+    "J04",
+    "J05"
+  ],
+  "selected_event_ids": [
+    "J01",
+    "J02",
+    "J03",
+    "J04",
+    "J05"
+  ],
+  "selected_events": [
+    {
+      "event_id": "J01",
+      "revision": 1,
+      "depot": "East",
+      "units": 6
+    },
+    {
+      "event_id": "J02",
+      "revision": 1,
+      "depot": "West",
+      "units": 4
+    },
+    {
+      "event_id": "J03",
+      "revision": 2,
+      "depot": "East",
+      "units": 5
+    },
+    {
+      "event_id": "J04",
+      "revision": 1,
+      "depot": "West",
+      "units": 2
+    },
+    {
+      "event_id": "J05",
+      "revision": 1,
+      "depot": "East",
+      "units": 1
+    }
+  ],
+  "missing_event_ids": [],
+  "unexpected_event_ids": [],
+  "conflict_event_ids": [],
+  "input_rows": 7,
+  "classification_counts": {
+    "selected": 5,
+    "superseded": 1,
+    "replay": 1,
+    "error": 0
+  },
+  "row_accounting": {
+    "input_rows": 7,
+    "accounted_rows": 7,
+    "passed": true
+  },
+  "depot_totals": {
+    "East": 12,
+    "West": 6
+  },
+  "status": "PASS",
+  "reasons": []
+}

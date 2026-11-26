@@ -1,0 +1,69 @@
+{
+  "batch_id": "ROUTE-20261125",
+  "manifest": "C:\\Users\\user\\Downloads\\AIDA-1145\\week-13\\lab-09-late-arriving-route-batch\\test-inputs\\conflict\\manifest_conflict.json",
+  "source": "C:\\Users\\user\\Downloads\\AIDA-1145\\week-13\\lab-09-late-arriving-route-batch\\test-inputs\\conflict\\snapshot_conflict.csv",
+  "manifest_sha256": "c84a0aa10f9f2940de3907c6385c68485ab2c787bae77df05e17339eddafbee6",
+  "source_sha256": "ee0386fa792d9c4a8e155b2513a3a345891fdf66c1e5da57ae8b90db230e6000",
+  "reporting_cutoff_utc": "2026-11-25T09:00:00Z",
+  "snapshot_as_of_utc": "2026-11-25T09:30:00Z",
+  "expected_event_ids": [
+    "J01",
+    "J02",
+    "J03",
+    "J04"
+  ],
+  "selected_event_ids": [
+    "J02",
+    "J03",
+    "J04"
+  ],
+  "selected_events": [
+    {
+      "event_id": "J02",
+      "revision": 1,
+      "depot": "West",
+      "units": 4
+    },
+    {
+      "event_id": "J03",
+      "revision": 2,
+      "depot": "East",
+      "units": 5
+    },
+    {
+      "event_id": "J04",
+      "revision": 1,
+      "depot": "West",
+      "units": 2
+    }
+  ],
+  "missing_event_ids": [
+    "J01"
+  ],
+  "unexpected_event_ids": [],
+  "conflict_event_ids": [
+    "J01"
+  ],
+  "input_rows": 7,
+  "classification_counts": {
+    "error": 2,
+    "selected": 3,
+    "superseded": 1,
+    "replay": 1
+  },
+  "row_accounting": {
+    "input_rows": 7,
+    "accounted_rows": 7,
+    "passed": true
+  },
+  "depot_totals": {
+    "East": 5,
+    "West": 6
+  },
+  "status": "HOLD",
+  "reasons": [
+    "2 error row(s)",
+    "Same-revision conflicts: J01",
+    "Missing expected IDs: J01"
+  ]
+}
